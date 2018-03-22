@@ -1,3 +1,7 @@
+/* Provide an interface for creating an object, but let the
+subclasses decide wich class to instantiate. Factory Method
+letd a class defer instantiation to subclasses */
+
 function Factory() {
     this.createEmployee = function(type) {
         var employee;
