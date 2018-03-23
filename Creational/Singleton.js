@@ -1,3 +1,6 @@
+/* Ensure a class has only one instance and provide a global 
+point of acess to ir*/
+
 function Singleton() {
     var instance;
 
